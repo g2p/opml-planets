@@ -17,7 +17,9 @@ cache/%/opml.xml:
 
 .PHONY: all build
 
+# Don't delete downloaded files just because they are intermediary.
 .SECONDARY: $(untagged)
 
-.DELETE_ON_ERROR: $(tagged) $(untagged)
+# Delete partial downloads and products of failed transforms.
+.DELETE_ON_ERROR:
 
