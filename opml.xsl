@@ -24,8 +24,10 @@
  </head>
  <body>
   <outline title="PostgreSQL" text="PostgreSQL">
-   <!-- GReader will use the title or text as a tag -->
-   <xsl:call-template name="t1"/>
+   <outline title="planet.postgresql.org" text="planet.postgresql.org">
+    <!-- GReader will use the title or text as a tag -->
+    <xsl:call-template name="t1"/>
+   </outline>
   </outline>
  </body>
 </opml>
