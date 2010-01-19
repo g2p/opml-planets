@@ -17,7 +17,7 @@ cache/index.html:
 .PHONY: all
 
 # Don't delete downloaded files just because they are intermediary.
-.SECONDARY: feeds.html
+.SECONDARY: cache/feeds.html cache/feeds.xhtml
 
 # Delete partial downloads and products of failed transforms.
 .DELETE_ON_ERROR:
