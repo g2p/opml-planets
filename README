@@ -8,3 +8,6 @@ then tweak the subscriptions. Some feed readers (only tested with google
 reader) will interpret tags in the outline, so that feeds from one planet
 can be grouped together.
 
+Known dependencies:
+sudo aptitude install xmlstarlet tidy make wget
+
