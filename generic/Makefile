@@ -15,7 +15,7 @@ cache/%/opml.xml:
 	wget --continue --timestamping --force-directories \
 	    --directory-prefix cache http://"$*"/opml.xml
 
-.PHONY: all build
+.PHONY: all
 
 # Don't delete downloaded files just because they are intermediary.
 .SECONDARY: $(untagged)
