@@ -4,12 +4,12 @@
  <xsl:output omit-xml-declaration="no" indent="yes"/>
  <!--
  Creates an OPML outline for all feeds planet.intertwingly.net subscribes to.
- All feeds are tagged planet.intertwingly.net .
+ All feeds are tagged with the planet's hostname.
  -->
  <xsl:template match="//body">
   <!-- GReader will use the title or text as a tag -->
    <xsl:copy>
-    <outline text="planet.intertwingly.net">
+    <outline text="{$planetHostname}">
      <xsl:apply-templates/>
     </outline>
    </xsl:copy>
