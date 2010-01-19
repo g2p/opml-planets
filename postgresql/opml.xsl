@@ -5,7 +5,7 @@
  <xsl:output omit-xml-declaration="no" indent="yes"/>
  <!--
  Creates an OPML outline for all feeds planet.postgresql.org subscribes to.
- All feeds are tagged with PostgreSL and planet.postgresql.org .
+ All feeds are tagged with PostgreSQL and planet.postgresql.org .
  Additionally, feeds from employees of a particular company are tagged with
  the company name.
  -->
