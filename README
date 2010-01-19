@@ -1,0 +1,10 @@
+OPML planets
+
+This is a set of scripts, makefiles, xslt stylesheets to break down
+some common planets into individual feeds, in an OPML outline.
+
+You can use it to subscribe to a planet's feeds in a feed reader all at once,
+then tweak the subscriptions. Some feed readers (only tested with google
+reader) will interpret tags in the outline, so that feeds from one planet
+can be grouped together.
+
