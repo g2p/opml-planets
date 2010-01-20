@@ -14,6 +14,22 @@
     </outline>
    </xsl:copy>
  </xsl:template>
+ <!-- Tag twitter feeds so I can remove them.
+      Planet KDE is the major offender. -->
+ <xsl:template match="//outline[starts-with(@xmlUrl, 'http://twitter.com/statuses/user_timeline/')]">
+  <outline text="twitter">
+   <xsl:copy>
+    <xsl:apply-templates select="@*|node()"/>
+   </xsl:copy>
+  </outline>
+ </xsl:template>
+ <xsl:template match="//outline[starts-with(@xmlUrl, 'http://identi.ca/')]">
+  <outline text="identi.ca">
+   <xsl:copy>
+    <xsl:apply-templates select="@*|node()"/>
+   </xsl:copy>
+  </outline>
+ </xsl:template>
  <!-- The identity rule -->
  <xsl:template match="node()|@*">
   <xsl:copy>
