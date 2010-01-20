@@ -1,4 +1,4 @@
-OPML planets
+h1. OPML planets
 
 This is a set of scripts, makefiles, xslt stylesheets to break down
 some common planets into individual feeds, in an OPML outline.
@@ -8,9 +8,11 @@ then tweak the subscriptions. Some feed readers (only tested with google
 reader) will interpret tags in the outline, so that feeds from one planet
 can be grouped together.
 
-Known dependencies:
-sudo aptitude install xmlstarlet tidy make wget
+h2. Known dependencies
 
-Quick links:
+bc. sudo aptitude install xmlstarlet tidy make wget
+
+h2. Quick links
+
 http://www.google.com/reader/settings?display=import
 
