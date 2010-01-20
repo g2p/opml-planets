@@ -7,7 +7,7 @@
  xmlns:dc="http://purl.org/dc/elements/1.1/"
  >
 
- <xsl:output omit-xml-declaration="no" indent="yes"/>
+ <xsl:output omit-xml-declaration="no" indent="yes" encoding="utf-8"/>
  <!--
  Creates an OPML outline for RDF-based planets.
  The import is dumb and doesn't use the RDF semantic model, just the foaf xml.

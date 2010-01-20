@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
  xmlns:x="http://www.w3.org/1999/xhtml"
  >
- <xsl:output omit-xml-declaration="no" indent="yes"/>
+ <xsl:output omit-xml-declaration="no" indent="yes" encoding="utf-8"/>
  <!--
  Creates an OPML outline for all feeds planet.postgresql.org subscribes to.
  All feeds are tagged with PostgreSQL and planet.postgresql.org .
