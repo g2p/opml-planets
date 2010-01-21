@@ -8,6 +8,10 @@
  All feeds are tagged with PostgreSQL and planet.postgresql.org .
  Additionally, feeds from employees of a particular company are tagged with
  the company name.
+
+ Planet PostgreSQL supports filtering by author, and some feeds are shared
+ between multiple authors (eg, EndPoint). There is no way to express filtering
+ rules in OPML.
  -->
  <xsl:template match="/">
   <opml version="1.1">
